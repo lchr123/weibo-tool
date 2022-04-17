@@ -1,4 +1,4 @@
-import auto_delete_blogs
+import sys
+# print(sys.path.append("C:\ProgramData\Anaconda3\Lib\site-packages"))
 
-list = auto_delete_blogs.read_txt('follow.txt')
-print(len(list))
+print(sys.path)
